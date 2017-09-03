@@ -47,7 +47,9 @@
 		</div>
 		
 		<div class="title">
-			button标签
+			<router-link to="/button">
+				button标签
+			</router-link>
 		</div>
 	</div>
 </template>

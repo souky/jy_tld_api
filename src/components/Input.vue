@@ -40,12 +40,5 @@ export default {
 </script>
 
 <style>
-.common_title{
-	width:97%;
-	padding-left:3%;
-	height:60px;
-	line-height: 60px;
-	font-size:18px;
-	color: #777;
-}
+
 </style>

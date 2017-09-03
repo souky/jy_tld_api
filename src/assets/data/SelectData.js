@@ -33,61 +33,41 @@ export default {
 			defaultVal:'-'
 		},
 		{
-			parameter:'type',
-			explain:'input类型',
-			type:'String',
-			chioceVal:'text,password,radio,checkbox',
-			defaultVal:'text'
-		},
-		{
 			parameter:'label',
-			explain:'input前label',
+			explain:'select前label',
 			type:'String',
 			chioceVal:'-',
 			defaultVal:'-'
 		},
 		{
-			parameter:'placeholder',
-			explain:'占位字符',
-			type:'String',
+			parameter:'options',
+			explain:'select装载数据',
+			type:'array',
 			chioceVal:'-',
 			defaultVal:'-'
+		},
+		{
+			parameter:'multiselect',
+			explain:'是否可以多选',
+			type:'boolean',
+			chioceVal:'true/false',
+			defaultVal:'false'
+		},
+		{
+			parameter:'show-cheack-box',
+			explain:'是否显示多选框',
+			type:'boolean',
+			chioceVal:'true/false',
+			defaultVal:'false'
 		},
 		{
 			parameter:'disable',
-			explain:'是否可编辑',
-			type:'boolean',
-			chioceVal:'true/false',
-			defaultVal:'true'
-		},
-		{
-			parameter:'show-password',
-			explain:'在type为password时可用,是否显示密码明文按钮',
+			explain:'是否禁用',
 			type:'boolean',
 			chioceVal:'true/false',
 			defaultVal:'false'
 		},
-		{
-			parameter:'validate',
-			explain:'验证规则,焦点离开后触发,参数为正则或者方法,当参数为方法时返回boolean',
-			type:'regular/function',
-			chioceVal:'-',
-			defaultVal:'-'
-		},
-		{
-			parameter:'tips',
-			explain:'验证错误时的提示,跟随validate共用',
-			type:'String',
-			chioceVal:'-',
-			defaultVal:'参数错误'
-		},
-		{
-			parameter:'require',
-			explain:'非空验证',
-			type:'boolean',
-			chioceVal:'true/false',
-			defaultVal:'false'
-		},
+		
 //		{
 //			parameter:'',
 //			explain:'',
@@ -95,5 +75,28 @@ export default {
 //			chioceVal:'',
 //			defaultVal:''
 //		},
+	],
+	optionsData:[
+		{
+			parameter:'name',
+			explain:'显示的字段',
+			type:'String',
+			chioceVal:'-',
+			defaultVal:'-'
+		},
+		{
+			parameter:'val',
+			explain:'对应的值',
+			type:'String',
+			chioceVal:'-',
+			defaultVal:'-'
+		},
+		{
+			parameter:'disable',
+			explain:'是否禁用此选项',
+			type:'boolean',
+			chioceVal:'true/false',
+			defaultVal:'false'
+		},
 	]
 }

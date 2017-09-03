@@ -21,7 +21,8 @@ Vue.prototype.initCodeBlock = function(){
 		var tagName = htmls.split('#')[1].split(' ')[0];
 		htmls = htmls.replace(/#/g,'<span><<span>');
 		htmls = htmls.replace(/%/g,'<span>><span>');
-		htmls = htmls.replace(tagName,'<font>'+tagName+'</font>');
+		var reg_tagName = new RegExp(tagName , 'g');
+		htmls = htmls.replace(reg_tagName,'<font>'+tagName+'</font>');
 		
 		obj.innerHTML = htmls;
 	}

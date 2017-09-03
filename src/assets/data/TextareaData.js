@@ -26,43 +26,50 @@ export default {
 			defaultVal:'-'
 		},
 		{
-			parameter:'value',
+			parameter:'defaultValue',
 			explain:'原有属性',
 			type:'String/number',
 			chioceVal:'-',
 			defaultVal:'-'
 		},
 		{
-			parameter:'type',
-			explain:'input类型',
+			parameter:'textarea-size',
+			explain:'框体大小',
 			type:'String',
-			chioceVal:'text,password,radio,checkbox',
-			defaultVal:'text'
-		},
-		{
-			parameter:'label',
-			explain:'input前label',
-			type:'String',
-			chioceVal:'-',
-			defaultVal:'-'
-		},
-		{
-			parameter:'placeholder',
-			explain:'占位字符',
-			type:'String',
-			chioceVal:'-',
-			defaultVal:'-'
+			chioceVal:'small/medium/large',
+			defaultVal:'medium'
 		},
 		{
 			parameter:'disable',
-			explain:'是否可编辑',
+			explain:'是否禁用',
 			type:'boolean',
 			chioceVal:'true/false',
-			defaultVal:'true'
+			defaultVal:'false'
 		},
 		{
-			parameter:'show-password',
-			explain:'在type为password时可用,是否显示密码明文按钮',
+			parameter:'allow-row',
+			explain:'允许的行数',
+			type:'number',
+			chioceVal:'-',
+			defaultVal:'-'
+		},
+		{
+			parameter:'read-only',
+			explain:'规定文本为只读',
+			type:'boolean',
+			chioceVal:'true/false',
+			defaultVal:'false'
+		},
+		{
+			parameter:'max-length',
+			explain:'最大允许字符数',
+			type:'number',
+			chioceVal:'-',
+			defaultVal:'-'
+		},
+		{
+			parameter:'resize',
+			explain:'是否可调整大小',
 			type:'boolean',
 			chioceVal:'true/false',
 			defaultVal:'false'

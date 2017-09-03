@@ -61,7 +61,18 @@ export default {
 	color:#7b7b7b;
 	font-family: Menlo,Monaco,Consolas,Courier,monospace;
 }
+pre{
+	font-family: Menlo,Monaco,Consolas,Courier,monospace;
+}
 .code_block font{
 	color:#f40;
+}
+.common_title{
+	width:97%;
+	padding-left:3%;
+	height:60px;
+	line-height: 60px;
+	font-size:18px;
+	color: #777;
 }
 </style>
