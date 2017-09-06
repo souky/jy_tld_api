@@ -41,8 +41,15 @@ export default {
 		},
 		{
 			parameter:'options',
-			explain:'select装载数据',
-			type:'array',
+			explain:'select装载数据,此参数可以为方法,需返回标准options数组',
+			type:'array/function',
+			chioceVal:'-',
+			defaultVal:'-'
+		},
+		{
+			parameter:'changes',
+			explain:'select变化时调用的方法',
+			type:'function',
 			chioceVal:'-',
 			defaultVal:'-'
 		},
