@@ -1,15 +1,26 @@
 <template>
-	<div id="button">
+	<div id="alert">
 		<div class="common_title">
-			Basics code
+			Alert Function
 		</div>
 		<div class="code_block">
-			#jy:button % #/jy:button%
+			jy.Alert({
+				width:400,
+				height:200,
+				top:200,
+				title:'提示',
+				content:'测试内容',
+				confirm-text:'关闭',
+				has-close-btn:false,
+				show-mask:true,
+				success:null,
+				close:null
+			})
 		</div>
 		<div class="common_title">
-			Button Attributes
+			Parameter Description
 		</div>
-		<el-table :data="buttonData" style="width:90%;margin:auto;">
+		<el-table :data="alertData" style="width:90%;margin:auto;">
 			<el-table-column prop="parameter" label="参数" width='180px'></el-table-column>
 			<el-table-column prop="explain" label="说明"></el-table-column>
 			<el-table-column prop="type" label="类型" width='200px'></el-table-column>
@@ -20,11 +31,12 @@
 </template>
 
 <script>
-import ButtonData from '../assets/data/ButtonData'
+import AlertData from '../assets/data/AlertData'
 export default {
 	data() {
 	  	return {
-	  		buttonData:ButtonData.Attributes,
+	  		msg:'',
+	  		alertData:AlertData.Attributes
 		}
 	},
 	mounted:function(){

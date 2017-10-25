@@ -1,54 +1,75 @@
 <template>
 	<div id="menu">
-		
+		<div >标签</div>
 		<div class="title">
 			<router-link to="/tables">
-				table标签
+				TABLE标签
 			</router-link>
 		</div>
 		
 		<div class="title">
-			selections标签
+			SELECTIONS标签
 		</div>
 		<div class="title title_second">
 			<router-link to="/input">
-				input标签
+				INPUT标签
 			</router-link>
 		</div>
 		<div class="title title_second">
 			<router-link to="/select">
-				select标签
+				SELECT标签
 			</router-link>
 		</div>
 		<div class="title title_second">
 			<router-link to="/textarea">
-				textarea标签
+				TEXTAREA标签
 			</router-link>
 		</div>
 		
 		<div class="title">
-			page标签
+			<router-link to="/page">
+				PAGE标签
+			</router-link>
 		</div>
 		
 		<div class="title">
-			tree标签
+			TREE标签
 		</div>
 		
 		<div class="title">
-			menu标签
+			MENU标签
 		</div>
 		
 		<div class="title">
-			nav标签
+			NAV标签
 		</div>
 		
 		<div class="title">
-			dialog标签
+			DIALOG标签
 		</div>
 		
 		<div class="title">
 			<router-link to="/button">
-				button标签
+				BUTTON标签
+			</router-link>
+		</div>
+		<div >组件</div>
+		<div class="title">
+			通知组件
+		</div>
+		<div class="title title_second">
+			<router-link to="/alert">
+				ALERT
+			</router-link>
+		</div>
+		<div class="title title_second">
+			<router-link to="/confirm">
+				CONFIRM
+			</router-link>
+		</div>
+		<div class="title title_second">
+			<router-link to="/notify">
+				NOTIFY
 			</router-link>
 		</div>
 	</div>

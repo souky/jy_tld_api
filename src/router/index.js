@@ -6,7 +6,12 @@ import Input from '@/components/Input'
 import Select from '@/components/Select'
 import Textarea from '@/components/Textarea'
 import Button from '@/components/Button'
+import Page from '@/components/Page'
 
+
+import Alert from '@/components/Alert'
+import Confirm from '@/components/Confirm'
+import Notify from '@/components/Notify'
 
 Vue.use(Router)
 
@@ -35,6 +40,22 @@ export default new Router({
     {
       path: '/button',
       component:Button
+    },
+    {
+    	path:'/page',
+    	component:Page
+    },
+    {
+    	path:'/alert',
+    	component:Alert
+    },
+    {
+    	path:'/confirm',
+    	component:Confirm
+    },
+    {
+    	path:'/notify',
+    	component:Notify
     }
     
     
