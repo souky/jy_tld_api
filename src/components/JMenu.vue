@@ -33,7 +33,9 @@
 		</div>
 		
 		<div class="title">
-			TREE标签
+			<router-link to="/tree">
+				TREE标签
+			</router-link>
 		</div>
 		
 		<div class="title">

@@ -1,6 +1,6 @@
 <template>
-<div>
-	asdawdawd
+<div style="line-height:640px;height:6   40px;font-size: 28px;text-align: center;">
+	Welcome to the Summoner's Rift
 </div>
 </template>
 

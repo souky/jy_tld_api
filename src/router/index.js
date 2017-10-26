@@ -7,7 +7,7 @@ import Select from '@/components/Select'
 import Textarea from '@/components/Textarea'
 import Button from '@/components/Button'
 import Page from '@/components/Page'
-
+import Tree from '@/components/Tree'
 
 import Alert from '@/components/Alert'
 import Confirm from '@/components/Confirm'
@@ -56,6 +56,9 @@ export default new Router({
     {
     	path:'/notify',
     	component:Notify
+    },{
+    	path:'/tree',
+    	component:Tree
     }
     
     
