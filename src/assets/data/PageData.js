@@ -61,6 +61,13 @@ export default {
 			defaultVal:'false'
 		},
 		{
+			parameter:'show-pages',
+			explain:'是否显示总页数',
+			type:'Boolean',
+			chioceVal:'true/false',
+			defaultVal:'false'
+		},
+		{
 			parameter:'size-options',
 			explain:'每页数据条数',
 			type:'Array',
