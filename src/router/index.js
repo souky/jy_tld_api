@@ -12,6 +12,7 @@ import Tree from '@/components/Tree'
 import Alert from '@/components/Alert'
 import Confirm from '@/components/Confirm'
 import Notify from '@/components/Notify'
+import Dialog from '@/components/Dialog'
 
 Vue.use(Router)
 
@@ -56,11 +57,15 @@ export default new Router({
     {
     	path:'/notify',
     	component:Notify
-    },{
+    },
+    {
     	path:'/tree',
     	component:Tree
+    },
+    {
+    	path:'/dialog',
+    	component:Dialog
     }
-    
     
   ]
 })

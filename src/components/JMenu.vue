@@ -47,7 +47,9 @@
 		</div>
 		
 		<div class="title">
-			DIALOG标签
+			<router-link to="/dialog">
+				DIALOG标签
+			</router-link>
 		</div>
 		
 		<div class="title">
