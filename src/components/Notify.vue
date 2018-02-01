@@ -5,12 +5,13 @@
 		</div>
 		<div class="code_block">
 			jy.Notify({
+				width:400,
+				height:300,
 				title:'提示',
 				content:'测试内容',
-				has-close-btn:false,
+				autoClose:true,
 				type:'success',
-				position:'right-top',
-				hidden-time:2000
+				closeTime:2000
 			})
 		</div>
 		<div class="common_title">

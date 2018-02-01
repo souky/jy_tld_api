@@ -19,8 +19,8 @@ export default {
 			defaultVal:'-'
 		},
 		{
-			parameter:'has-close-btn',
-			explain:'是否有关闭按钮',
+			parameter:'autoClose',
+			explain:'是否自动关闭',
 			type:'Boolean',
 			chioceVal:'true/false',
 			defaultVal:'true'
@@ -30,7 +30,7 @@ export default {
 			explain:'提示类型',
 			type:'String',
 			chioceVal:'success/error/warning/info',
-			defaultVal:'-'
+			defaultVal:'success'
 		},
 		{
 			parameter:'position',
@@ -40,11 +40,25 @@ export default {
 			defaultVal:'right-top'
 		},
 		{
-			parameter:'hidden-time',
+			parameter:'closeTime',
 			explain:'自动隐藏时间,此值为0时不自动隐藏,单位ms',
 			type:'number',
 			chioceVal:'-',
-			defaultVal:'1000'
+			defaultVal:'5000'
+		},
+		{
+			parameter:'width',
+			explain:'提示框宽度,单位PX',
+			type:'number',
+			chioceVal:'-',
+			defaultVal:'200'
+		},
+		{
+			parameter:'height',
+			explain:'提示框高度,单位PX',
+			type:'number',
+			chioceVal:'-',
+			defaultVal:'100'
 		},
 //		{
 //			parameter:'',

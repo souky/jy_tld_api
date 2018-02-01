@@ -2,11 +2,11 @@
 	<div id="menu">
 		<div >标签</div>
 		<div class="title">
-			<router-link to="/tables">
-				TABLE标签
-			</router-link>
+			<!-- <router-link to="/tables"> -->
+				TABLE标签<font class="undone">(暂未完成)</font>
+			<!-- </router-link> -->
 		</div>
-		
+
 		<div class="title">
 			SELECTIONS标签
 		</div>
@@ -20,40 +20,35 @@
 				SELECT标签
 			</router-link>
 		</div>
-		<div class="title title_second">
+
+		<div class="title">
 			<router-link to="/textarea">
 				TEXTAREA标签
 			</router-link>
 		</div>
-		
+
 		<div class="title">
 			<router-link to="/page">
 				PAGE标签
 			</router-link>
 		</div>
-		
+
 		<div class="title">
 			<router-link to="/tree">
 				TREE标签
 			</router-link>
 		</div>
-		
+
 		<div class="title">
 			<router-link to="/menu">
 				MENU标签
 			</router-link>
 		</div>
-		
+
 		<div class="title">
-			NAV标签
+			NAV标签<font class="undone">(暂未完成)</font>
 		</div>
-		
-		<div class="title">
-			<router-link to="/dialog">
-				DIALOG标签
-			</router-link>
-		</div>
-		
+
 		<div class="title">
 			<router-link to="/button">
 				BUTTON标签
@@ -78,6 +73,12 @@
 				NOTIFY
 			</router-link>
 		</div>
+		<div class="title">
+			<router-link to="/dialog">
+				DIALOG组件
+			</router-link>
+		</div>
+
 	</div>
 </template>
 
@@ -105,5 +106,9 @@
 }
 .router-link-active{
 	color:#6bbada!important;
+}
+#menu .undone{
+	color: #ccc;
+	margin-left: 10px;
 }
 </style>
