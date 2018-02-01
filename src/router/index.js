@@ -8,6 +8,7 @@ import Textarea from '@/components/Textarea'
 import Button from '@/components/Button'
 import Page from '@/components/Page'
 import Tree from '@/components/Tree'
+import Menu from '@/components/Menu'
 
 import Alert from '@/components/Alert'
 import Confirm from '@/components/Confirm'
@@ -65,6 +66,10 @@ export default new Router({
     {
     	path:'/dialog',
     	component:Dialog
+    },
+    {
+      path:'/menu',
+      component:Menu
     }
     
   ]

@@ -39,7 +39,9 @@
 		</div>
 		
 		<div class="title">
-			MENU标签
+			<router-link to="/menu">
+				MENU标签
+			</router-link>
 		</div>
 		
 		<div class="title">
