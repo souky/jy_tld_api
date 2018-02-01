@@ -47,7 +47,7 @@ export default {
 			defaultVal:'-'
 		},
 		{
-			parameter:'one-row-open',
+			parameter:'jy-onlyOne',
 			explain:'是否只展开一行',
 			type:'Boolean',
 			chioceVal:'true/false',

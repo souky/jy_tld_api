@@ -26,32 +26,11 @@ export default {
 			defaultVal:'-'
 		},
 		{
-			parameter:'page-options',
-			explain:'分页所需要的数据',
+			parameter:'pageOptions',
+			explain:'分页所需要的数据,例如: var pageOptions=[{total:34}];',
 			type:'Object',
 			chioceVal:'-',
 			defaultVal:'-'
-		},
-		{
-			parameter:'next-page',
-			explain:'下一页方法',
-			type:'function',
-			chioceVal:'-',
-			defaultVal:'-'
-		},
-		{
-			parameter:'prev-page',
-			explain:'上一页方法',
-			type:'function',
-			chioceVal:'-',
-			defaultVal:'-'
-		},
-		{
-			parameter:'jump-page',
-			explain:'跳转页面方法',
-			type:'function',
-			chioceVal:'',
-			defaultVal:''
 		},
 		{
 			parameter:'show-total',
@@ -68,15 +47,15 @@ export default {
 			defaultVal:'false'
 		},
 		{
-			parameter:'size-options',
-			explain:'每页数据条数',
+			parameter:'NewsizeOptions',
+			explain:'每页数据条数,需要自定义时需创建变量并赋值,例如：var NewsizeOptions=[5,10,20,30];',
 			type:'Array',
 			chioceVal:'-',
 			defaultVal:'[10,20,30]'
 		},
 		{
-			parameter:'page-count',
-			explain:'最大显示页码个数',
+			parameter:'NewpagingTotal',
+			explain:'最大显示页码个数,需要自定义时需创建变量并赋值,例如：var NewpagingTotal= 6;',
 			type:'number',
 			chioceVal:'-',
 			defaultVal:'5'
@@ -92,25 +71,11 @@ export default {
 	
 	OptionAttributes:[
 		{
-			parameter:'page-num',
-			explain:'当前页',
-			type:'number',
+			parameter:'output',
+			explain:'返回当前页码和大小',
+			type:'function',
 			chioceVal:'-',
-			defaultVal:'1'
-		},
-		{
-			parameter:'page-size',
-			explain:'每页条数',
-			type:'number',
-			chioceVal:'-',
-			defaultVal:'10'
-		},
-		{
-			parameter:'total-size',
-			explain:'总条数',
-			type:'number',
-			chioceVal:'-',
-			defaultVal:'0'
+			defaultVal:''
 		},
 	]
 }
