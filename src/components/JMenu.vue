@@ -3,7 +3,7 @@
 		<div >标签</div>
 		<div class="title">
 			<router-link to="/table">
-				TABLE标签<font class="undone">(暂未完成)</font>
+				TABLE标签<font class="undone">(完善中)</font>
 			</router-link>
 		</div>
 

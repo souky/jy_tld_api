@@ -111,19 +111,19 @@ export default {
 			chioceVal:'-',
 			defaultVal:'-'
 		},
-    {
-			parameter:'',
-			explain:'',
-			type:'',
-			chioceVal:'',
-			defaultVal:''
-		},
-    {
-			parameter:'',
-			explain:'',
-			type:'',
-			chioceVal:'',
-			defaultVal:''
-		},
+    // {
+		// 	parameter:'',
+		// 	explain:'',
+		// 	type:'',
+		// 	chioceVal:'',
+		// 	defaultVal:''
+		// },
+    // {
+		// 	parameter:'',
+		// 	explain:'',
+		// 	type:'',
+		// 	chioceVal:'',
+		// 	defaultVal:''
+		// },
   ]
 }
