@@ -4,7 +4,7 @@
 			Basics code
 		</div>
 		<div class="code_block">
-			#jy:nav% 
+			#jy:nav%
 
 			#/jy:nav%
 		</div>
@@ -19,7 +19,7 @@
 			<el-table-column prop="defaultVal" label="默认值" width='160px'></el-table-column>
 		</el-table>
 		<div class="common_title">
-			Options Attributes
+			Functions
 		</div>
 		<el-table :data="optionsData" style="width:90%;margin:auto;">
 			<el-table-column prop="parameter" label="参数" width='180px'></el-table-column>

@@ -36,7 +36,7 @@ export default {
 			parameter:'type',
 			explain:'input类型',
 			type:'String',
-			chioceVal:'text,password,radio,checkbox',
+			chioceVal:'text,password',
 			defaultVal:'text'
 		},
 		{
