@@ -46,7 +46,9 @@
 		</div>
 
 		<div class="title">
-			NAV标签<font class="undone">(暂未完成)</font>
+			<router-link to="/nav">
+				NAV标签
+			</router-link>
 		</div>
 
 		<div class="title">

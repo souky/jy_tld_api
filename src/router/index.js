@@ -9,6 +9,7 @@ import Button from '@/components/Button'
 import Page from '@/components/Page'
 import Tree from '@/components/Tree'
 import Menu from '@/components/Menu'
+import Nav from '@/components/Nav'
 
 import Alert from '@/components/Alert'
 import Confirm from '@/components/Confirm'
@@ -42,6 +43,9 @@ export default new Router({
     {
       path: '/button',
       component:Button
+    },{
+      path:'/nav',
+      component:Nav
     },
     {
     	path:'/page',

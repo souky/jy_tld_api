@@ -73,7 +73,7 @@ export default {
 		{
 			parameter:'output',
 			explain:'返回当前页码和大小',
-			type:'function',
+			type:'function(pageNum,pageSize)',
 			chioceVal:'-',
 			defaultVal:''
 		},
