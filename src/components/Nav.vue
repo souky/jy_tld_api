@@ -4,8 +4,17 @@
 			Basics code
 		</div>
 		<div class="code_block">
-			#jy:nav%
-
+			#jy:nav% <br> 
+			&nbsp;&nbsp;#jy:nav-title data-to="/qwe"% <br> 
+			&nbsp;&nbsp;&nbsp;&nbsp;#p%题目一#/p% <br> 
+			&nbsp;&nbsp;#/jy:nav-title% <br> 
+			&nbsp;&nbsp;#jy:nav-title% <br> 
+			&nbsp;&nbsp;&nbsp;&nbsp;#p%题目二#/p% <br> 
+			&nbsp;&nbsp;&nbsp;&nbsp;#jy:nav-title-item data-to="/qwe1"%demo1#/jy:nav-title-item% <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;#jy:nav-title-item data-to="/qwe2"%demo2#/jy:nav-title-item% <br>
+			&nbsp;&nbsp;&nbsp;&nbsp;#jy:nav-title-item data-to="/qwe3"%demo3#/jy:nav-title-item% <br>
+			&nbsp;&nbsp;#/jy:nav-title% <br> 
+			&nbsp;&nbsp;#jy:nav-title data-to="/qwe4"%#p%题目三#/p%#/jy:nav-title% <br> 
 			#/jy:nav%
 		</div>
 		<div class="common_title">
@@ -19,7 +28,7 @@
 			<el-table-column prop="defaultVal" label="默认值" width='160px'></el-table-column>
 		</el-table>
 		<div class="common_title">
-			Functions
+			Options Attributes
 		</div>
 		<el-table :data="optionsData" style="width:90%;margin:auto;">
 			<el-table-column prop="parameter" label="参数" width='180px'></el-table-column>
@@ -35,9 +44,9 @@
 import NavData from '../assets/data/NavData'
 export default {
 	data() {
-	  	return {
-	  		selectData:NavData.Attributes,
-	  		optionsData:NavData.optionsData
+		return {
+			selectData:NavData.Attributes,
+			optionsData:NavData.optionsData
 		}
 	},
 	mounted:function(){
